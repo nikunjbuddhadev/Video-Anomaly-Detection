@@ -7,4 +7,4 @@ Anomaly detection is a technique used to identify unusual patterns that do not c
 
 Frames given were used to form dynamic images for all the videos using MATLAB. Those dynamic images were further processed in python(code attached). In further processing, Histogram of Oriented Gradients(HOG) features from each dynamic image were extracted which are returned in a 1-by-n vector. The returned features encode local shape information from regions within an image. These vectors from each image were used to form a dataframe which was then used as an input to our different learning algorithms for the detection of fall activity. 
 
-Performances of SVM, kNN and CNN(Alexnet) were compared and the best results came from Alexnet with 90.6% accuracy. While using Alexnet framework, data agumentation was applied as well to get better results.
+Performances of SVM, kNN and CNN(Alexnet) were compared and the best results came from Alexnet with 95.6% accuracy. While using Alexnet framework, data agumentation was applied as well to get better results.
